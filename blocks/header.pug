@@ -1,0 +1,27 @@
+block header
+script.
+    function navToggle = function() {        
+        var navToggleUl = document.getElementById("nav");        
+        navToggleUl.classList.toggle("open");
+    }
+
+
+header.header 
+    .logo 
+        img(src="https://vimafoods.com/wp-content/uploads/2020/05/mazorcas-maiz-choclo.jpg", alt="corn")
+    nav.nav#nav
+        ul 
+            li.li 
+                a(href="#") link 1
+            li.li 
+                a(href="#") link 2
+            li.li 
+                a(href="#") link 3
+            li.li 
+                a(href="#") link 4
+            li.li 
+                a(href="#") link 5
+
+            button(onclick='navToggle()') Nav Toggle
+
+              

@@ -1,14 +1,21 @@
+html {
+    height: 100%;
+}
 body {
     background: olivedrab;
     margin: 0;
     padding: 20px 15px;
     font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2ps solid #222121;
+    border-bottom: 2px solid #222121;
+    padding-bottom: 15px;
 }
 .logo {
     max-width: 50px;
@@ -27,6 +34,12 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #222121;
-    
+    color: #222121;    
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #222121;
+    padding-top: 15px;
 }

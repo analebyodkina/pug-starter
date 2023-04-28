@@ -1,0 +1,32 @@
+body {
+    background: olivedrab;
+    margin: 0;
+    padding: 20px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2ps solid #222121;
+}
+.logo {
+    max-width: 50px;
+}
+.logo img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #222121;
+    
+}
